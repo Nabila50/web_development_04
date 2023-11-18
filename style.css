@@ -1,0 +1,361 @@
+/*-----------------Global CSS Start----------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/*-----------------Global CSS End----------------*/
+
+/*-----------------Header Section CSS Start----------------*/
+
+.header_section{
+    width: 100%;
+    background: #F0FFF0;
+    padding: 20px 0px; 
+}
+
+.header_section .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.header_section .navbar .logo{
+    flex-basis: 15%;
+}
+.header_section .navbar .logo img{
+    width: 198.07px;
+    height: 59px; 
+}
+
+.header_section .navbar .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_section .navbar .nav ul{
+    margin-top: 0;
+    padding: 0; 
+}
+
+.header_section .navbar .nav ul li{
+    margin-right: 30px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.header_section .navbar .btn{
+    flex-basis: 15%;
+}
+
+.header_section .navbar .btn a{
+    background: #21B573;
+    width: 104px;
+    height: 43px;
+    padding: 12px 28px; 
+    color: white;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+}
+
+.header_section .navbar .btn a:hover{
+    background: #21b52b;
+    transition: 0.5s;
+}
+
+/*----------------Banner Section CSS Start----------------*/
+
+.banner{ 
+    width: 100%;
+    background: #F0FFF0;
+}
+
+.banner .banner_inner{ 
+    display: flex;
+}
+
+.banner .banner_inner .content{ 
+    flex-basis: 50%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.banner .banner_inner .content span{
+    color: #FD511A;
+}
+
+.banner .banner_inner .content h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.banner .banner_inner .content h1 span{
+    color:#21B573;
+}
+
+.banner .banner_inner .content p{
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.banner .banner_inner .content .banner_btn{
+    margin-top: 45px;
+}
+
+.banner .banner_inner .content a{
+    background: #21B573;
+    padding: 12px 36px; 
+    color: white;
+    border: 1px solid #000;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+}
+
+.banner .banner_inner .content a:hover{
+    background: #21b52b;
+    transition: 0.5s;
+}
+
+.banner .banner_inner .img-part{ 
+    flex-basis: 50%;
+}
+
+.banner .banner_inner .img-part img{ 
+    width: 100%;
+    height: auto;
+}
+
+/*----------------Feature Section CSS Start----------------*/
+
+.feature{
+    width: 100%;
+    padding: 50px;
+}
+
+.feature .feature_inner{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.feature .feature_inner .f-box{
+    padding: 50px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.feature .feature_inner .f-box:hover{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+    transition: 0.7s;
+    background: #21b52b;
+}
+
+.feature .feature_inner .f-box h4{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+    width: 186px;
+    line-height: 36px;
+    margin-top: 25px;
+    color: #413960;
+}
+.feature .feature_inner .f-box p{
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #585859;
+}
+
+.feature .feature_inner .f-box img{
+    width: 66px;
+    height: 85px;
+}
+
+/*----------------Course Section CSS Start----------------*/
+.courses{
+    width: 100%;
+    padding: 50px;
+}
+
+.course_inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: #413960;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    justify-content: center;
+}
+.c_card{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 0px 10px; 
+}
+
+.c_card img{
+    width: 331px;
+    height: 234px;
+    border-radius:11px;
+    color: #CFB6B6;
+}
+
+.c_card h2{
+    width: 237px;
+    line-height: 36px;
+    font-size: 24px;
+    color: #413960;
+    font-weight: 500;
+}
+
+.c_card p{
+    padding: 5px 0px;
+    text-align: left;
+    width: 96px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #585859;
+    font-weight: 400;
+}
+
+.c_card .c_btn a{
+    width: 137px;
+    line-height: 65px;
+    padding: 8px 28px;
+    border-radius: 33px;
+    background: #21B573;
+    color: white;
+    border: 1px solid #21B573;
+}
+
+.c_footer{
+    display: flex;
+}
+
+.c_footer .left{
+    padding: 23px 1px 0px 0px
+}
+.c_footer .left img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;  
+}
+
+.c_footer .right{
+    padding: 23px 0px 0px 60px;
+}
+
+.c_footer .right img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/*----------------Last Section CSS Start----------------*/
+
+.last_section{
+    width: 100%;
+    padding: 50px;
+}
+
+.title_2{
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    padding: 40px 0px 0px 0px;
+}
+
+.last{
+    display: flex;
+    padding: 60px 0px 0px 110px;
+}
+
+.last .last_left img{
+    width: 120px;
+    height: 120px;
+    padding: 0px 70px 50px 0px;
+}
+
+.last .last_right p{
+    width: 583px;
+    height: 90px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+   text-align: center; 
+}
+
+/*----------------Footer Section CSS Start----------------*/
+
+.footer{
+    width: 100%;
+    background-color: #282531;
+    padding: 50px;
+}
+
+.design{
+    display: flex;
+    height: 369px;
+    list-style-type: none;
+    color: #FFFFFF;
+    
+    padding: 2px 10px;
+    justify-content: space-between;
+}
+.design .text p{
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+}
+.design .div_1 ul, .div_2 ul, .div_3 ul{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 16px;
+    line-height: 30px;
+}
+
+.design .div_1 h4, .div_2 h4, .div_3 h4{
+    list-style-type: none;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+ 
+.final_section{
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    color: #CDCDCD;
+    text-align: center;
+}
